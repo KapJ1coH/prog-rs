@@ -86,6 +86,7 @@ fn main() {
                     let timestamp = dt.timestamp();
                     println!("Adding Task: '{}'", args.task);
                     println!("Due Date:  {} (Timestamp: {})", dt, timestamp);
+                    println!("Work Weight: {:?}", args.weight);
 
                 }
                 Err(e) => eprintln!("Error: {}", e),
